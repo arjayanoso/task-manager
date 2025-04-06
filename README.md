@@ -23,8 +23,8 @@ A simple command-line task manager application built with Python and SQLite.
 
 Run the CLI:
 ```
-python -m task_manager.cli add "My Task" --description "A sample task" --due "2025-12-31"
-python -m task_manager.cli list
-python -m task_manager.cli done 1
-python -m task_manager.cli delete 1
+python -m scripts.cli add "My Task" --description "A sample task" --due "2025-12-31"
+python -m scripts.cli list
+python -m scripts.cli done 1
+python -m scripts.cli delete 1
 
